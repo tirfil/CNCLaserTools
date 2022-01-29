@@ -16,7 +16,7 @@ G17 ; Select XY plane
 G90 ; Set absolute coordinate mode
 M5 ; Ensure LASER is turned off
 G0 X0 Y0 F200 S0 ; Move to work origin
-G91 ; Set relative coordinate mode""")
+""")
 
 with open(filein,'r') as f:
 	for line in f:
