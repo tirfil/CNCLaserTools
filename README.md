@@ -35,7 +35,7 @@ Enable to convert GCODE file with relative coordinate mode (G91) into a GCODE fi
 
 __laser_gcode_optimizer2__
 
-Improvement: process the objects as segments i.e with a start point and and end point.
+Improvement: process the objects as segments i.e with a start point and an end point.
 
 __gcode2laser__
 (python2) 
