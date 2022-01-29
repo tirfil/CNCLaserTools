@@ -33,4 +33,11 @@ Enable to convert GCODE file with relative coordinate mode (G91) into a GCODE fi
 
 (For example: https://github.com/drandrewthomas/gcodercnc2d5 produces relative coordinate mode GCODE )
 
+__laser_gcode_optimizer2__
 
+Improvement: process the objects as segments i.e with a start point and and end point.
+
+__gcode2laser__
+(python2) 
+
+Send GCODE instructions to CNC laser machine.
