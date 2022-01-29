@@ -49,9 +49,9 @@ with open(filein,'r') as f:
 				# if (y < ymin): ymin = y
 				xy2index.append((x,y,number))
 			number+=1
-		elif rm2.search(line):
-			GOBlocks.append(block)
-			block = []					
+		# elif rm2.search(line):
+			# GOBlocks.append(block)
+			# block = []					
 		block.append(line[:-1])
 if len(block) > 1:
 	GOBlocks.append(block)
