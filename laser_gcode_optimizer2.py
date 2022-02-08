@@ -4,11 +4,11 @@ import random
 
 CLUSTERS = 20
 
-rg0 = re.compile("^G0 X")
+rg0 = re.compile("^(G0|G00) X")
 rxy = re.compile("X([^ ]*) Y([^ $]*)")
-rm2 = re.compile("^M2")
-rg91 = re.compile("^^G91")
-rgx = re.compile("^G. X")
+rm2 = re.compile("^(M2|M02)")
+rg91 = re.compile("^G91")
+rgx = re.compile("^(G.|G0.) X")
 
 if len(sys.argv) != 3:
 	print("Usage: %s <gcode file in> <gode file out>" % sys.argv[0])
