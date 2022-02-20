@@ -1,11 +1,11 @@
 import sys
 import re
 
-rg0 = re.compile("^G0")
-rg1 = re.compile("^G1")
-rg2 = re.compile("^G2")
-rg3 = re.compile("^G3")
-rm2 = re.compile("^M2")
+rg0 = re.compile("^(G0\s|G00)")
+rg1 = re.compile("^(G1\s|G01)")
+rg2 = re.compile("^(G2\s|G02)")
+rg3 = re.compile("^(G3\s|G03)")
+rm2 = re.compile("^(M2\s|M02)")
 
 filein = sys.argv[1]
 
